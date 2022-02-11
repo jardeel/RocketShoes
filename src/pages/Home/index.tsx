@@ -1,8 +1,9 @@
+import { FC } from 'react';
 import { MdAddShoppingCart } from 'react-icons/md';
 
 import { ProductList } from './styles';
 
-export default function Home(){
+const Home:FC = () => {
   return(
     <ProductList>
       <li>
@@ -22,3 +23,5 @@ export default function Home(){
     </ProductList>
   )
 }
+
+export default Home;
