@@ -64,7 +64,7 @@ export const ProductList = styled.ul`
         font-weight: bold;
       }
     }
-  }
+  } 
 
   @media only screen and (max-width: 960px){
     grid-template-columns: repeat(2, 1fr);

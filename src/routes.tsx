@@ -1,9 +1,10 @@
+import { FC } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Cart from './pages/Cart';
 
-export default function Routes(){
+const Routes: FC = () => {
   return(
     <Switch>
       <Route path="/" exact component={Home} />
@@ -11,3 +12,5 @@ export default function Routes(){
     </Switch>
   )
 }
+
+export default Routes;
